@@ -1,0 +1,4571 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Hotel Veg Sizzle's</title>
+
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="css/bistro-icons.css">
+  <link rel="stylesheet" type="text/css" href="css/animate.min.css">
+  <link rel="stylesheet" type="text/css" href="css/settings.css">
+  <link rel="stylesheet" type="text/css" href="css/navigation.css">
+  <link rel="stylesheet" type="text/css" href="css/owl.carousel.css">
+  <link rel="stylesheet" type="text/css" href="css/owl.transitions.css">
+  <link rel="stylesheet" type="text/css" href="css/jquery.fancybox.css">
+  <link rel="stylesheet" type="text/css" href="css/zerogrid.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" type="text/css" href="css/loader.css">
+  <link rel="shortcut icon" href="images/favicon.png">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css"
+    integrity="sha512-+L4yy6FRcDGbXJ9mPG8MT/3UCDzwR9gPeyFNMCtInsol++5m3bk2bXWKdZjvybmohrAsn3Ua5x8gfLnbE1YkOg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+<![endif]-->
+
+</head>
+<style>
+  .text-white {
+    margin: 15px 0;
+  }
+
+  .dashed-border {
+    border: 2px dashed #ee8659;
+    margin-bottom: 10px;
+  }
+</style>
+
+<body>
+
+  <!--Loader-->
+  <div class="loader">
+    <div class="cssload-container">
+      <div class="cssload-circle"></div>
+      <div class="cssload-circle"></div>
+    </div>
+  </div>
+
+  <!--Topbar-->
+  <div class="topbar">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <p class="pull-left hidden-xs">Bistro Foods and Restaurant, the Best in Town</p>
+          <p class="pull-right"><i class="fa fa-phone"></i>Order Online <a href="tel:02225976003">022 2597 6003</a></p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <header id="main-navigation">
+    <div id="navigation" data-spy="affix" data-offset-top="20">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <nav class="navbar navbar-default">
+              <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                  data-target="#fixed-collapse-navbar" aria-expanded="false">
+                  <span class="icon-bar top-bar"></span> <span class="icon-bar middle-bar"></span> <span
+                    class="icon-bar bottom-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html">
+                  <h2>Veg Sizzle's</h2>
+                </a>
+              </div>
+
+              <div id="fixed-collapse-navbar" class="navbar-collapse collapse navbar-right">
+                <ul class="nav navbar-nav">
+                  <li>
+                    <a href="index.html">Home</a>
+                  </li>
+                  <li><a href="about.html">About us</a></li>
+                  <li><a href="gallery.html">Gallery</a></li>
+                  <li><a href="menu.html">Menu</a></li>
+                  <li><a href="">Order Now</a></li>
+                  <li><a href="location.html">Contact Us</a></li>
+
+                </ul>
+              </div>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+
+  <!--Page header & Title-->
+  <section id="page_header">
+    <div class="page_title">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <h2 class="title">Menu</h2>
+            <p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- food section -->
+
+  <section class="food_section layout_padding">
+    <div class="container">
+      <div class="heading_container heading_center">
+        <h2 class="text-white mb-3">
+          Food Menu
+        </h2>
+        <div class="dashed-border"></div>
+      </div>
+
+      <style>
+        #accordion {
+          font-family: Verdana, Geneva, Tahoma, sans-serif;
+          margin: 5px;
+          color: #FFF !important;
+        }
+
+        #accordion .card {
+          background: #222831b9 !important;
+          border: 2px dashed burlywood;
+          padding: 5px;
+        }
+
+        #accordion .card-header {
+          background-color: #ee8659 !important;
+          /* background-color: rgba(240, 248, 255, 0.356); */
+          /* border-bottom: 2px dashed #FFF; */
+          /* border-style: groove; */
+          background: transparent;
+
+        }
+
+        #accordion h5 {
+          text-align: center;
+          text-decoration: none !important;
+        }
+
+        button {
+          background: transparent;
+          font-weight: bolder;
+          font-size: 18px !important;
+          overflow: hidden;
+          white-space: nowrap;
+          display: inline-block;
+          text-overflow: ellipsis;
+          /* color: #FFF !important; */
+        }
+
+        button:hover {
+          color: #FFF !important;
+        }
+
+        button .indicator {
+          margin-left: 30px !important;
+        }
+
+        .dotted-border {
+          width: 100%;
+          border-bottom: 1px dashed burlywood;
+        }
+
+        #accordion p {
+          padding-top: 10px;
+          text-align: center;
+          font-size: 12px !important;
+
+        }
+
+        .menu-items {
+          padding: 5px 20px !important;
+          display: flex;
+          justify-content: space-between;
+        }
+      </style>
+
+      <div class="row text-capitalize food-menu">
+        <!-- left menu -->
+        <div class="col-md-6">
+
+          <!-- menu category South Indian - Snack's-->
+          <div id="accordion">
+            <div class="card">
+              <div class="card-header" id="headingOne">
+                <h5 class="mb-0 text-center">
+                  <button class="btn btn-block text-uppercase font-weight-bold" aria-expanded="true">
+                    South Indian - Snack's (9.00 AM To 11.00 PM)
+                    <!-- <i class="indicator fa fa-chevron-up ml-2" aria-hidden="true"></i> -->
+                  </button>
+                </h5>
+              </div>
+              <div id="" class="" aria-labelledby="headingOne" data-parent="#accordion">
+                <!-- menu -->
+                <div class="menu">
+                  <!-- menu items -->
+                  <div class="menu-items d-flex justify-content-between p-2">
+                    <div class="dish-name">Steam Idli</div>
+                    <div class="dish-price">65.00</div>
+                  </div>
+
+                  <div class="dotted-border"></div>
+
+                  <div class="menu-items d-flex justify-content-between p-2">
+                    <div class="dish-name">butter Idli</div>
+                    <div class="dish-price">80.00</div>
+                  </div>
+                </div>
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">dahi Idli</div>
+                  <div class="dish-price">95.00</div>
+                </div>
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">Idli Fry</div>
+                  <div class="dish-price">100.00</div>
+                </div>
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">medu wada</div>
+                  <div class="dish-price">75.00</div>
+                </div>
+
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">Dahi Wada</div>
+                  <div class="dish-price">95.00</div>
+                </div>
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">idli wada</div>
+                  <div class="dish-price">75.00</div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+
+          <!-- menu category uttappam-->
+          <div id="accordion">
+            <div class="card">
+              <div class="card-header" id="headingOne">
+                <h5 class="mb-0 text-center">
+                  <button class="btn text-uppercase font-weight-bold">
+                    uttappam
+                    <!-- <i class="indicator fa fa-chevron-up ml-2" aria-hidden="true"></i> -->
+                  </button>
+                </h5>
+              </div>
+              <div id="three" aria-labelledby="headingOne" data-parent="#accordion">
+                <!-- menu -->
+                <div class="menu">
+                  <!-- menu items -->
+                  <div class="menu-items d-flex justify-content-between p-2">
+                    <div class="dish-name">Uttappam</div>
+                    <div class="dish-price">110.00</div>
+                  </div>
+
+                  <div class="dotted-border"></div>
+
+                  <div class="menu-items d-flex justify-content-between p-2">
+                    <div class="dish-name">butter uttappam</div>
+                    <div class="dish-price">120.00</div>
+                  </div>
+                </div>
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">ghee uttappam</div>
+                  <div class="dish-price">120.00</div>
+                </div>
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">cheese uttappam</div>
+                  <div class="dish-price">150.00</div>
+                </div>
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">onion uttappam</div>
+                  <div class="dish-price">115.00</div>
+                </div>
+
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">butter onion uttappam</div>
+                  <div class="dish-price">120.00</div>
+                </div>
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">ghee onion uttappam</div>
+                  <div class="dish-price">120.00</div>
+                </div>
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">cheese onion uttappam</div>
+                  <div class="dish-price">150.00</div>
+                </div>
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">tomato uttappam</div>
+                  <div class="dish-price">110.00</div>
+                </div>
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">tomato onion uttappam</div>
+                  <div class="dish-price">120.00</div>
+                </div>
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">coconut uttappam</div>
+                  <div class="dish-price">120.00</div>
+                </div>
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">masala uttappam</div>
+                  <div class="dish-price">110.00</div>
+                </div>
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">butter masala uttappam</div>
+                  <div class="dish-price">120.00</div>
+                </div>
+
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">ghee masala uttappam</div>
+                  <div class="dish-price">120.00</div>
+                </div>
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">cheese masala uttappam</div>
+                  <div class="dish-price">140.00</div>
+                </div>
+
+                <div class="dotted-border"></div>
+                <p class="text-capitalize">( ghee/butter will be charged rs. 25/- extra & cheese rs. 30/- extra )</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- menu category veg. sizzel's special dosa's-->
+          <div id="accordion">
+            <div class="card">
+              <div class="card-header" id="headingOne">
+                <h5 class="mb-0 text-center">
+                  <button class="btn text-uppercase font-weight-bold" data-toggle="collapse" data-target="#four"
+                    aria-expanded="true" aria-controls="four">
+                    veg. sizzel's special dosa's
+                    <!-- <i class="indicator fa fa-chevron-up ml-2" aria-hidden="true"></i> -->
+                  </button>
+                </h5>
+              </div>
+              <div id="" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+                <!-- menu -->
+                <div class="menu">
+                  <!-- menu items -->
+                  <div class="menu-items d-flex justify-content-between p-2">
+                    <div class="dish-name">spring dosa</div>
+                    <div class="dish-price">150.00</div>
+                  </div>
+
+                  <div class="dotted-border"></div>
+
+                  <div class="menu-items d-flex justify-content-between p-2">
+                    <div class="dish-name">palak dosa</div>
+                    <div class="dish-price">130.00</div>
+                  </div>
+                </div>
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">malak masala dosa</div>
+                  <div class="dish-price">135.00</div>
+                </div>
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">pab bhaji dosa</div>
+                  <div class="dish-price">150.00</div>
+                </div>
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">schezwan dosa</div>
+                  <div class="dish-price">150.00</div>
+                </div>
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">schezwan masala dosa</div>
+                  <div class="dish-price">160.00</div>
+                </div>
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">sixer dosa</div>
+                  <div class="dish-price">170.00</div>
+                </div>
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">banglore dosa</div>
+                  <div class="dish-price">140.00</div>
+                </div>
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">veg. sizzel's special dosa</div>
+                  <div class="dish-price">190.00</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- menu category Dosa's-->
+          <div id="accordion">
+            <!-- menu category -->
+            <div class="card">
+              <div class="card-header" id="headingOne">
+                <h5 class="mb-0 text-center">
+                  <button class="btn text-uppercase font-weight-bold" data-toggle="collapse" data-target="#collapseTwo"
+                    aria-expanded="true" aria-controls="collapseTwo">
+                    Dosa's
+                    <!-- <i class="indicator fa fa-chevron-up ml-2" aria-hidden="true"></i> -->
+                  </button>
+                </h5>
+              </div>
+              <div id="" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+                <!-- menu -->
+                <div class="menu">
+                  <!-- menu items -->
+                  <div class="menu-items d-flex justify-content-between p-2">
+                    <div class="dish-name">sada dosa</div>
+                    <div class="dish-price">80.00</div>
+                  </div>
+
+                  <div class="dotted-border"></div>
+
+                  <div class="menu-items d-flex justify-content-between p-2">
+                    <div class="dish-name">butter sada dosa</div>
+                    <div class="dish-price">90.00</div>
+                  </div>
+
+                  <div class="dotted-border"></div>
+
+                  <div class="menu-items d-flex justify-content-between p-2">
+                    <div class="dish-name">ghee sada dosa</div>
+                    <div class="dish-price">90.00</div>
+                  </div>
+
+                  <div class="dotted-border"></div>
+
+                  <div class="menu-items d-flex justify-content-between p-2">
+                    <div class="dish-name">cheese sada dosa</div>
+                    <div class="dish-price">110.00</div>
+                  </div>
+
+                  <div class="dotted-border"></div>
+
+                  <div class="menu-items d-flex justify-content-between p-2">
+                    <div class="dish-name">masala dosa</div>
+                    <div class="dish-price">100.00</div>
+                  </div>
+
+                  <div class="dotted-border"></div>
+
+                  <div class="menu-items d-flex justify-content-between p-2">
+                    <div class="dish-name">Butter masala dosa</div>
+                    <div class="dish-price">110.00</div>
+                  </div>
+
+                  <div class="dotted-border"></div>
+
+                  <div class="menu-items d-flex justify-content-between p-2">
+                    <div class="dish-name">ghee masala dosa</div>
+                    <div class="dish-price">110.00</div>
+                  </div>
+
+                  <div class="dotted-border"></div>
+
+                  <div class="menu-items d-flex justify-content-between p-2">
+                    <div class="dish-name">cheese masala dosa</div>
+                    <div class="dish-price">125.00</div>
+                  </div>
+
+                  <div class="dotted-border"></div>
+
+                  <div class="menu-items d-flex justify-content-between p-2">
+                    <div class="dish-name">paper sada dosa</div>
+                    <div class="dish-price">160.00</div>
+                  </div>
+
+                  <div class="dotted-border"></div>
+
+                  <div class="menu-items d-flex justify-content-between p-2">
+                    <div class="dish-name">butter paper sada dosa</div>
+                    <div class="dish-price">170.00</div>
+                  </div>
+
+                  <div class="dotted-border"></div>
+
+                  <div class="menu-items d-flex justify-content-between p-2">
+                    <div class="dish-name">ghee paper sada dosa</div>
+                    <div class="dish-price">170.00</div>
+                  </div>
+
+                  <div class="dotted-border"></div>
+
+                  <div class="menu-items d-flex justify-content-between p-2">
+                    <div class="dish-name">cheese paper sada dosa</div>
+                    <div class="dish-price">190.00</div>
+                  </div>
+
+                  <div class="dotted-border"></div>
+
+                  <div class="menu-items d-flex justify-content-between p-2">
+                    <div class="dish-name">paper masala dosa</div>
+                    <div class="dish-price">180.00</div>
+                  </div>
+
+                  <div class="dotted-border"></div>
+
+                  <div class="menu-items d-flex justify-content-between p-2">
+                    <div class="dish-name">butter paper masala dosa</div>
+                    <div class="dish-price">190.00</div>
+                  </div>
+
+                  <div class="dotted-border"></div>
+
+                  <div class="menu-items d-flex justify-content-between p-2">
+                    <div class="dish-name">ghee paper masala dosa</div>
+                    <div class="dish-price">190.00</div>
+                  </div>
+
+                  <div class="dotted-border"></div>
+
+                  <div class="menu-items d-flex justify-content-between p-2">
+                    <div class="dish-name">cheese paper masala dosa</div>
+                    <div class="dish-price">210.00</div>
+                  </div>
+
+                  <div class="dotted-border"></div>
+
+                  <div class="menu-items d-flex justify-content-between p-2">
+                    <div class="dish-name">mysore sada dosa</div>
+                    <div class="dish-price">110.00</div>
+                  </div>
+
+                  <div class="dotted-border"></div>
+
+                  <div class="menu-items d-flex justify-content-between p-2">
+                    <div class="dish-name">butter mysore sada dosa</div>
+                    <div class="dish-price">120.00</div>
+                  </div>
+
+                  <div class="dotted-border"></div>
+
+                  <div class="menu-items d-flex justify-content-between p-2">
+                    <div class="dish-name">ghee mysore sada dosa</div>
+                    <div class="dish-price">120.00</div>
+                  </div>
+
+                  <div class="dotted-border"></div>
+
+                  <div class="menu-items d-flex justify-content-between p-2">
+                    <div class="dish-name">cheese mysore sada dosa</div>
+                    <div class="dish-price">130.00</div>
+                  </div>
+
+                  <div class="dotted-border"></div>
+
+                  <div class="menu-items d-flex justify-content-between p-2">
+                    <div class="dish-name">mysore masala dosa</div>
+                    <div class="dish-price">120.00</div>
+                  </div>
+
+                  <div class="dotted-border"></div>
+
+                  <div class="menu-items d-flex justify-content-between p-2">
+                    <div class="dish-name">butter mysore masala dosa</div>
+                    <div class="dish-price">120.00</div>
+                  </div>
+
+                  <div class="dotted-border"></div>
+
+                  <div class="menu-items d-flex justify-content-between p-2">
+                    <div class="dish-name">ghee mysore masala dosa</div>
+                    <div class="dish-price">120.00</div>
+                  </div>
+
+                  <div class="dotted-border"></div>
+
+                  <div class="menu-items d-flex justify-content-between p-2">
+                    <div class="dish-name">cheese mysore masala dosa</div>
+                    <div class="dish-price">130.00</div>
+                  </div>
+
+                  <div class="dotted-border"></div>
+
+                  <div class="menu-items d-flex justify-content-between p-2">
+                    <div class="dish-name">rava sada dosa</div>
+                    <div class="dish-price">110.00</div>
+                  </div>
+
+                  <div class="dotted-border"></div>
+
+                  <div class="menu-items d-flex justify-content-between p-2">
+                    <div class="dish-name">butter rava sada dosa</div>
+                    <div class="dish-price">120.00</div>
+                  </div>
+
+                  <div class="dotted-border"></div>
+
+                  <div class="menu-items d-flex justify-content-between p-2">
+                    <div class="dish-name">ghee rava sada dosa</div>
+                    <div class="dish-price">120.00</div>
+                  </div>
+
+                  <div class="dotted-border"></div>
+
+                  <div class="menu-items d-flex justify-content-between p-2">
+                    <div class="dish-name">cheese rava sada dosa</div>
+                    <div class="dish-price">140.00</div>
+                  </div>
+
+                  <div class="dotted-border"></div>
+
+                  <div class="menu-items d-flex justify-content-between p-2">
+                    <div class="dish-name">rava masala dosa</div>
+                    <div class="dish-price">120.00</div>
+                  </div>
+
+                  <div class="dotted-border"></div>
+
+                  <div class="menu-items d-flex justify-content-between p-2">
+                    <div class="dish-name">butter rava masala dosa</div>
+                    <div class="dish-price">130.00</div>
+                  </div>
+
+                  <div class="dotted-border"></div>
+
+                  <div class="menu-items d-flex justify-content-between p-2">
+                    <div class="dish-name">ghee rava masala dosa</div>
+                    <div class="dish-price">130.00</div>
+                  </div>
+
+                  <div class="dotted-border"></div>
+
+                  <div class="menu-items d-flex justify-content-between p-2">
+                    <div class="dish-name">cheese rava masala dosa</div>
+                    <div class="dish-price">150.00</div>
+                  </div>
+
+                  <div class="dotted-border"></div>
+
+                  <div class="menu-items d-flex justify-content-between p-2">
+                    <div class="dish-name">onion rava sada dosa</div>
+                    <div class="dish-price">120.00</div>
+                  </div>
+
+                  <div class="dotted-border"></div>
+
+                  <div class="menu-items d-flex justify-content-between p-2">
+                    <div class="dish-name">butter onion rava sada dosa</div>
+                    <div class="dish-price">130.00</div>
+                  </div>
+
+
+                  <div class="dotted-border"></div>
+
+                  <div class="menu-items d-flex justify-content-between p-2">
+                    <div class="dish-name">ghee onion rava sada dosa</div>
+                    <div class="dish-price">130.00</div>
+                  </div>
+
+                  <div class="dotted-border"></div>
+
+                  <div class="menu-items d-flex justify-content-between p-2">
+                    <div class="dish-name">cheese onion rava sada dosa</div>
+                    <div class="dish-price">150.00</div>
+                  </div>
+
+                  <div class="dotted-border"></div>
+
+                  <div class="menu-items d-flex justify-content-between p-2">
+                    <div class="dish-name">onion rava masala dosa</div>
+                    <div class="dish-price">125.00</div>
+                  </div>
+
+                  <div class="dotted-border"></div>
+
+                  <div class="menu-items d-flex justify-content-between p-2">
+                    <div class="dish-name">butter onion rava masala dosa</div>
+                    <div class="dish-price">130.00</div>
+                  </div>
+
+                  <div class="dotted-border"></div>
+
+                  <div class="menu-items d-flex justify-content-between p-2">
+                    <div class="dish-name">ghee onion rava masala dosa</div>
+                    <div class="dish-price">130.00</div>
+                  </div>
+
+
+                  <div class="dotted-border"></div>
+
+                  <div class="menu-items d-flex justify-content-between p-2">
+                    <div class="dish-name">cheese onion rava masala dosa</div>
+                    <div class="dish-price">160.00</div>
+                  </div>
+
+
+                  <div class="dotted-border"></div>
+
+                  <div class="menu-items d-flex justify-content-between p-2">
+                    <div class="dish-name">tomato omlet</div>
+                    <div class="dish-price">120.00</div>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- menu category Fasting(snack's) -->
+          <div id="accordion">
+            <div class="card">
+              <div class="card-header" id="headingOne">
+                <h5 class="mb-0 text-center">
+                  <button class="btn text-uppercase font-weight-bold" data-toggle="collapse" data-target="#five"
+                    aria-expanded="true" aria-controls="five">
+                    Fasting(snack's)
+                    <!-- <i class="indicator fa fa-chevron-up ml-2" aria-hidden="true"></i> -->
+                  </button>
+                </h5>
+              </div>
+              <div id="" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+                <!-- menu -->
+                <div class="menu">
+                  <!-- menu items -->
+                  <div class="menu-items d-flex justify-content-between p-2">
+                    <div class="dish-name">Finger chips</div>
+                    <div class="dish-price">100.00</div>
+                  </div>
+
+                  <div class="dotted-border"></div>
+
+                  <div class="menu-items d-flex justify-content-between p-2">
+                    <div class="dish-name">sabudana wada</div>
+                    <div class="dish-price">110.00</div>
+                  </div>
+                </div>
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">potato toast</div>
+                  <div class="dish-price">110.00</div>
+                </div>
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">sabudana khichadi</div>
+                  <div class="dish-price">110.00</div>
+                </div>
+
+
+              </div>
+            </div>
+          </div>
+
+          <!-- menu category sandwiche's -->
+          <div id="accordion">
+            <!-- menu category -->
+            <div class="card">
+              <div class="card-header" id="headingOne">
+                <h5 class="mb-0 text-center">
+                  <button class="btn text-uppercase font-weight-bold" data-toggle="collapse" data-target="#six"
+                    aria-expanded="true" aria-controls="six">
+                    sandwiche's
+                    <!-- <i class="indicator fa fa-chevron-up ml-2" aria-hidden="true"></i> -->
+                  </button>
+                </h5>
+              </div>
+              <div id="" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+                <!-- menu -->
+                <div class="menu">
+                  <!-- menu items -->
+                  <div class="menu-items d-flex justify-content-between p-2">
+                    <div class="dish-name">veg. sandwich</div>
+                    <div class="dish-price">70.00</div>
+                  </div>
+
+                  <div class="dotted-border"></div>
+
+                  <div class="menu-items d-flex justify-content-between p-2">
+                    <div class="dish-name">veg. cheese sandwich</div>
+                    <div class="dish-price">100.00</div>
+                  </div>
+
+                  <div class="dotted-border"></div>
+
+                  <div class="menu-items d-flex justify-content-between p-2">
+                    <div class="dish-name">Bread butter</div>
+                    <div class="dish-price">60.00</div>
+                  </div>
+
+                  <div class="dotted-border"></div>
+
+                  <div class="menu-items d-flex justify-content-between p-2">
+                    <div class="dish-name">bread jam butter</div>
+                    <div class="dish-price">70.00</div>
+                  </div>
+
+                  <div class="dotted-border"></div>
+
+                  <div class="menu-items d-flex justify-content-between p-2">
+                    <div class="dish-name">toast butter</div>
+                    <div class="dish-price">70.00</div>
+                  </div>
+
+                  <div class="dotted-border"></div>
+
+                  <div class="menu-items d-flex justify-content-between p-2">
+                    <div class="dish-name">toast butter jam</div>
+                    <div class="dish-price">110.00</div>
+                  </div>
+
+                  <div class="dotted-border"></div>
+
+                  <div class="menu-items d-flex justify-content-between p-2">
+                    <div class="dish-name">veg. toast sandwich</div>
+                    <div class="dish-price">90.00</div>
+                  </div>
+
+                  <div class="dotted-border"></div>
+
+                  <div class="menu-items d-flex justify-content-between p-2">
+                    <div class="dish-name">chatni sandwich</div>
+                    <div class="dish-price">65.00</div>
+                  </div>
+
+                  <div class="dotted-border"></div>
+
+                  <div class="menu-items d-flex justify-content-between p-2">
+                    <div class="dish-name">veg. grill sandwich</div>
+                    <div class="dish-price">130.00</div>
+                  </div>
+
+                  <div class="dotted-border"></div>
+
+                  <div class="menu-items d-flex justify-content-between p-2">
+                    <div class="dish-name">veg. cheese grill sandwich</div>
+                    <div class="dish-price">145.00</div>
+                  </div>
+
+                  <div class="dotted-border"></div>
+
+                  <div class="menu-items d-flex justify-content-between p-2">
+                    <div class="dish-name">Cheese grill sandwich</div>
+                    <div class="dish-price">140.00</div>
+                  </div>
+
+                  <div class="dotted-border"></div>
+
+                  <div class="menu-items d-flex justify-content-between p-2">
+                    <div class="dish-name">cheese sandwich</div>
+                    <div class="dish-price">100.00</div>
+                  </div>
+
+                  <div class="dotted-border"></div>
+
+                  <div class="menu-items d-flex justify-content-between p-2">
+                    <div class="dish-name">cheese toast sandwich</div>
+                    <div class="dish-price">110.00</div>
+                  </div>
+
+                  <div class="dotted-border"></div>
+
+                  <div class="menu-items d-flex justify-content-between p-2">
+                    <div class="dish-name">veg. cheese toast sandwich</div>
+                    <div class="dish-price">130.00</div>
+                  </div>
+
+                  <div class="dotted-border"></div>
+
+                  <div class="menu-items d-flex justify-content-between p-2">
+                    <div class="dish-name">Veg. club sandwich</div>
+                    <div class="dish-price">150.00</div>
+                  </div>
+
+                  <div class="dotted-border"></div>
+
+                  <div class="menu-items d-flex justify-content-between p-2">
+                    <div class="dish-name">veg. russian sandwich</div>
+                    <div class="dish-price">140.00</div>
+                  </div>
+
+                  <div class="dotted-border"></div>
+
+                  <div class="menu-items d-flex justify-content-between p-2">
+                    <div class="dish-name">veg. paneer grill sandwich</div>
+                    <div class="dish-price">140.00</div>
+                  </div>
+
+                  <div class="dotted-border"></div>
+
+                  <div class="menu-items d-flex justify-content-between p-2">
+                    <div class="dish-name">chilly garlic cheese toast sandwich</div>
+                    <div class="dish-price">1140.00</div>
+                  </div>
+
+                  <div class="dotted-border"></div>
+
+                  <div class="menu-items d-flex justify-content-between p-2">
+                    <div class="dish-name">chilly cheese toast sandwich</div>
+                    <div class="dish-price">135.00</div>
+                  </div>
+
+
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- menu category Pizza / Burger -->
+          <div id="accordion">
+            <!-- menu category -->
+            <div class="card">
+              <div class="card-header" id="headingOne">
+                <h5 class="mb-0 text-center">
+                  <button class="btn text-uppercase font-weight-bold" data-toggle="collapse" data-target="#seven"
+                    aria-expanded="true" aria-controls="seven">
+                    Pizza / burger
+                    <!-- <i class="indicator fa fa-chevron-up ml-2" aria-hidden="true"></i> -->
+                  </button>
+                </h5>
+              </div>
+              <div id="" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+                <!-- menu -->
+                <div class="menu">
+                  <!-- menu items -->
+                  <div class="menu-items d-flex justify-content-between p-2">
+                    <div class="dish-name">veg. pizza</div>
+                    <div class="dish-price">200.00</div>
+                  </div>
+
+                  <div class="dotted-border"></div>
+
+                  <div class="menu-items d-flex justify-content-between p-2">
+                    <div class="dish-name">cheese pizza</div>
+                    <div class="dish-price">200.00</div>
+                  </div>
+
+                  <div class="dotted-border"></div>
+
+                  <div class="menu-items d-flex justify-content-between p-2">
+                    <div class="dish-name">jain pizza</div>
+                    <div class="dish-price">200.00</div>
+                  </div>
+
+                  <div class="dotted-border"></div>
+
+                  <div class="menu-items d-flex justify-content-between p-2">
+                    <div class="dish-name">tomato pizza</div>
+                    <div class="dish-price">200.00</div>
+                  </div>
+
+                  <div class="dotted-border"></div>
+
+                  <div class="menu-items d-flex justify-content-between p-2">
+                    <div class="dish-name">veg. mushroom pizza</div>
+                    <div class="dish-price">210.00</div>
+                  </div>
+
+                  <div class="dotted-border"></div>
+
+                  <div class="menu-items d-flex justify-content-between p-2">
+                    <div class="dish-name">veg. paneer pizza</div>
+                    <div class="dish-price">220.00</div>
+                  </div>
+
+                  <div class="dotted-border"></div>
+
+                  <div class="menu-items d-flex justify-content-between p-2">
+                    <div class="dish-name">veg. sizzel's special pizza</div>
+                    <div class="dish-price">230.00</div>
+                  </div>
+
+                  <div class="dotted-border"></div>
+
+                  <div class="menu-items d-flex justify-content-between p-2">
+                    <div class="dish-name">veg. burger</div>
+                    <div class="dish-price">110.00</div>
+                  </div>
+
+                  <div class="dotted-border"></div>
+
+                  <div class="menu-items d-flex justify-content-between p-2">
+                    <div class="dish-name">veg. cheese burger</div>
+                    <div class="dish-price">130.00</div>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- menu category pab bhaji -->
+          <div id="accordion">
+            <div class="card">
+              <div class="card-header" id="headingOne">
+                <h5 class="mb-0 text-center">
+                  <button class="btn text-uppercase font-weight-bold" data-toggle="collapse" data-target="#eight"
+                    aria-expanded="true" aria-controls="eight">
+                    pav bhaji (10 AM to 11.45 PM)
+                    <!-- <i class="indicator fa fa-chevron-up ml-2" aria-hidden="true"></i> -->
+                  </button>
+                </h5>
+              </div>
+              <div id="" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+                <!-- menu -->
+                <div class="menu">
+                  <!-- menu items -->
+                  <div class="menu-items d-flex justify-content-between p-2">
+                    <div class="dish-name">pab bhaji </div>
+                    <div class="dish-price">125.00</div>
+                  </div>
+
+                  <div class="dotted-border"></div>
+
+                  <div class="menu-items d-flex justify-content-between p-2">
+                    <div class="dish-name">cheese pav bhaji</div>
+                    <div class="dish-price">140.00</div>
+                  </div>
+                </div>
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">khada pav bhaji</div>
+                  <div class="dish-price">140.00</div>
+                </div>
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">cheese khada pav bhaji</div>
+                  <div class="dish-price">150.00</div>
+                </div>
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">jain pan bhaji</div>
+                  <div class="dish-price">140.00</div>
+                </div>
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">jain cheese pan bhaji</div>
+                  <div class="dish-price">175.00</div>
+                </div>
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">paneer pav bhaji</div>
+                  <div class="dish-price">150.00</div>
+                </div>
+
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">veg. sizzel's special pav bhaji</div>
+                  <div class="dish-price">190.00</div>
+                </div>
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">Masala pav</div>
+                  <div class="dish-price">110.00</div>
+                </div>
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">cheese Masala pav</div>
+                  <div class="dish-price">140.00</div>
+                </div>
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">Only bhaji</div>
+                  <div class="dish-price">115.00</div>
+                </div>
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">butter pav (2 Pcs.) </div>
+                  <div class="dish-price">30.00</div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+
+          <!-- menu category indian soup's -->
+          <div id="accordion">
+            <div class="card">
+              <div class="card-header" id="headingOne">
+                <h5 class="mb-0 text-center">
+                  <button class="btn text-uppercase font-weight-bold" data-toggle="collapse" data-target="#nine"
+                    aria-expanded="true" aria-controls="nine">
+                    Indian soup's (11.00 AM to 4.00 PM & 7.00 PM to 11.45 PM)
+                    <!-- <i class="indicator fa fa-chevron-up ml-2" aria-hidden="true"></i> -->
+                  </button>
+                </h5>
+              </div>
+              <div id="" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+                <!-- menu -->
+                <div class="menu">
+                  <!-- menu items -->
+                  <div class="menu-items d-flex justify-content-between p-2">
+                    <div class="dish-name">Cream of tomato soup </div>
+                    <div class="dish-price">135.00</div>
+                  </div>
+
+                  <div class="dotted-border"></div>
+
+                  <div class="menu-items d-flex justify-content-between p-2">
+                    <div class="dish-name">cream of palak soup</div>
+                    <div class="dish-price">135.00</div>
+                  </div>
+                </div>
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">cream of veg. soup</div>
+                  <div class="dish-price">135.00</div>
+                </div>
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">cream of mushroom soup</div>
+                  <div class="dish-price">140.00</div>
+                </div>
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">cream of baby corn soup</div>
+                  <div class="dish-price">140.00</div>
+                </div>
+
+
+              </div>
+            </div>
+          </div>
+
+          <!-- menu category chinese starters -->
+          <div id="accordion">
+            <div class="card">
+              <div class="card-header" id="headingOne">
+                <h5 class="mb-0 text-center">
+                  <button class="btn text-uppercase font-weight-bold" data-toggle="collapse" data-target="#twentyfour"
+                    aria-expanded="true" aria-controls="twentyfour">
+                    chinese starters
+                    <!-- <i class="indicator fa fa-chevron-up ml-2" aria-hidden="true"></i> -->
+                  </button>
+                </h5>
+              </div>
+              <div id="" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+                <!-- menu -->
+                <div class="menu">
+                  <!-- menu items -->
+                  <div class="menu-items d-flex justify-content-between p-2">
+                    <div class="dish-name">paneer schezwan</div>
+                    <div class="dish-price">260.00</div>
+                  </div>
+
+                  <div class="dotted-border"></div>
+
+                  <div class="menu-items d-flex justify-content-between p-2">
+                    <div class="dish-name">paneer sathe</div>
+                    <div class="dish-price">270.00</div>
+                  </div>
+                </div>
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">paneer manchurian</div>
+                  <div class="dish-price">250.00</div>
+                </div>
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">paneer 65</div>
+                  <div class="dish-price">250.00</div>
+                </div>
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">paneer chilly</div>
+                  <div class="dish-price">250.00</div>
+                </div>
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">paneer hot garlic</div>
+                  <div class="dish-price">250.00</div>
+                </div>
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">paneer crispy</div>
+                  <div class="dish-price">260.00</div>
+                </div>
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">paneer mush crispy</div>
+                  <div class="dish-price">270.00</div>
+                </div>
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">paneer baby corn crispy</div>
+                  <div class="dish-price">270.00</div>
+                </div>
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">idli chilly</div>
+                  <div class="dish-price">240.00</div>
+                </div>
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">gobi manchurian</div>
+                  <div class="dish-price">240.00</div>
+                </div>
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">veg. manchurian</div>
+                  <div class="dish-price">240.00</div>
+                </div>
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">veg. spring roll</div>
+                  <div class="dish-price">240.00</div>
+                </div>
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">veg. chinese bhel</div>
+                  <div class="dish-price">190.00</div>
+                </div>
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">veg. chilly</div>
+                  <div class="dish-price">220.00</div>
+                </div>
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">veg. 65</div>
+                  <div class="dish-price">220.00</div>
+                </div>
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">veg. lollipop</div>
+                  <div class="dish-price">250.00</div>
+                </div>
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">veg. sesame toast</div>
+                  <div class="dish-price">250.00</div>
+                </div>
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">veg. crispy</div>
+                  <div class="dish-price">240.00</div>
+                </div>
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">veg. salt 'n' paper</div>
+                  <div class="dish-price">250.00</div>
+                </div>
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">mushroom chilly</div>
+                  <div class="dish-price">250.00</div>
+                </div>
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">mushroom manchurian</div>
+                  <div class="dish-price">250.00</div>
+                </div>
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">mushroom schezwan</div>
+                  <div class="dish-price">250.00</div>
+                </div>
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">mushroom hot garlic</div>
+                  <div class="dish-price">250.00</div>
+                </div>
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">mushroom crispy</div>
+                  <div class="dish-price">270.00</div>
+                </div>
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">baby corn chilly</div>
+                  <div class="dish-price">260.00</div>
+                </div>
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">baby corn manchurian </div>
+                  <div class="dish-price">260.00</div>
+                </div>
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">baby corn schezwan</div>
+                  <div class="dish-price">260.00</div>
+                </div>
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">baby corn hot garlic</div>
+                  <div class="dish-price">260.00</div>
+                </div>
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">baby corn crispy</div>
+                  <div class="dish-price">270.00</div>
+                </div>
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">baby corn paneer(schezwan)</div>
+                  <div class="dish-price">260.00</div>
+                </div>
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">baby corn mushroom crispy</div>
+                  <div class="dish-price">270.00</div>
+                </div>
+                <div class="dotted-border"></div>
+                <p>( schezwan sauce will be charged rs. 30/- extra. )</p>
+
+
+              </div>
+            </div>
+          </div>
+
+          <!-- menu category chinese rice -->
+          <div id="accordion">
+            <div class="card">
+              <div class="card-header" id="headingOne">
+                <h5 class="mb-0 text-center">
+                  <button class="btn text-uppercase font-weight-bold" data-toggle="collapse" data-target="#twenty-five"
+                    aria-expanded="true" aria-controls="twenty-five">
+                    chinese rice
+                    <!-- <i class="indicator fa fa-chevron-up ml-2" aria-hidden="true"></i> -->
+                  </button>
+                </h5>
+              </div>
+              <div id="" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+                <!-- menu -->
+                <div class="menu">
+                  <!-- menu items -->
+                  <div class="menu-items d-flex justify-content-between p-2">
+                    <div class="dish-name">veg. fried rice</div>
+                    <div class="dish-price">210.00</div>
+                  </div>
+
+                  <div class="dotted-border"></div>
+
+                  <div class="menu-items d-flex justify-content-between p-2">
+                    <div class="dish-name">veg. schezwan fried rice</div>
+                    <div class="dish-price">230.00</div>
+                  </div>
+                </div>
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">veg. shanghai/ hong kong fried rice</div>
+                  <div class="dish-price">240.00</div>
+                </div>
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">veg. singapore fried rice</div>
+                  <div class="dish-price">240.00</div>
+                </div>
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">veg. tripple schezwan fried rice</div>
+                  <div class="dish-price">280.00</div>
+                </div>
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">veg. stewed rice</div>
+                  <div class="dish-price">240.00</div>
+                </div>
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">veg. combination fried rice</div>
+                  <div class="dish-price">260.00</div>
+                </div>
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">veg. schezwan combination fried rice</div>
+                  <div class="dish-price">260.00</div>
+                </div>
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">veg. three treasure fried rice </div>
+                  <div class="dish-price">280.00</div>
+                </div>
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">veg. thai fried rice </div>
+                  <div class="dish-price">260.00</div>
+                </div>
+
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">mushroom fried rice </div>
+                  <div class="dish-price">250.00</div>
+                </div>
+
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">mushroom schezwan fried rice </div>
+                  <div class="dish-price">260.00</div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+
+          <!-- menu category noodles -->
+          <div id="accordion">
+            <div class="card">
+              <div class="card-header" id="headingOne">
+                <h5 class="mb-0 text-center">
+                  <button class="btn text-uppercase font-weight-bold" data-toggle="collapse" data-target="#twenty-six"
+                    aria-expanded="true" aria-controls="twenty-six">
+                    noodles
+                    <!-- <i class="indicator fa fa-chevron-up ml-2" aria-hidden="true"></i> -->
+                  </button>
+                </h5>
+              </div>
+              <div id="" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+                <!-- menu -->
+                <div class="menu">
+                  <!-- menu items -->
+                  <div class="menu-items d-flex justify-content-between p-2">
+                    <div class="dish-name">veg. hakka noodles</div>
+                    <div class="dish-price">200.00</div>
+                  </div>
+
+                  <div class="dotted-border"></div>
+
+                  <div class="menu-items d-flex justify-content-between p-2">
+                    <div class="dish-name">veg. schezwan haka noodles</div>
+                    <div class="dish-price">230.00</div>
+                  </div>
+                </div>
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">veg. shanghai/ hong kong noodles</div>
+                  <div class="dish-price">240.00</div>
+                </div>
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">veg. stewed noodles / veg. chow mein noodles</div>
+                  <div class="dish-price">240.00</div>
+                </div>
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">veg. manchow noodles</div>
+                  <div class="dish-price">260.00</div>
+                </div>
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">veg. chilly noodles</div>
+                  <div class="dish-price">240.00</div>
+                </div>
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">veg. tripple noodles</div>
+                  <div class="dish-price">250.00</div>
+                </div>
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">veg. chinese chopsuey</div>
+                  <div class="dish-price">230.00</div>
+                </div>
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">veg. chinese chopsuey</div>
+                  <div class="dish-price">240.00</div>
+                </div>
+
+
+              </div>
+            </div>
+          </div>
+
+          <!-- menu category sizzler -->
+          <div id="accordion">
+            <div class="card">
+              <div class="card-header" id="headingOne">
+                <h5 class="mb-0 text-center">
+                  <button class="btn text-uppercase font-weight-bold" data-toggle="collapse" data-target="#twenty-eight"
+                    aria-expanded="true" aria-controls="twenty-eight">
+                    sizzler (only on Table)
+                    <!-- <i class="indicator fa fa-chevron-up ml-2" aria-hidden="true"></i> -->
+                  </button>
+                </h5>
+              </div>
+              <div id="" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+                <!-- menu -->
+                <div class="menu">
+                  <!-- menu items -->
+                  <div class="menu-items d-flex justify-content-between p-2">
+                    <div class="dish-name">veg. sizzler</div>
+                    <div class="dish-price">430.00</div>
+                  </div>
+
+                  <div class="dotted-border"></div>
+
+                  <div class="menu-items d-flex justify-content-between p-2">
+                    <div class="dish-name">veg. paneer sizzler</div>
+                    <div class="dish-price">440.00</div>
+                  </div>
+                </div>
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">veg. mush sizzler</div>
+                  <div class="dish-price">440.00</div>
+                </div>
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">paneer mush sizzler</div>
+                  <div class="dish-price">440.00</div>
+                </div>
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">paneer cheese chilly sizzler</div>
+                  <div class="dish-price">490.00</div>
+                </div>
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">paneer mush baby corn cheese</div>
+                  <div class="dish-price">500.00</div>
+                </div>
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">paneer cheese sizzler</div>
+                  <div class="dish-price">470.00</div>
+                </div>
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">paneer tikka sizzler</div>
+                  <div class="dish-price">450.00</div>
+                </div>
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">paneer chilly sizzler</div>
+                  <div class="dish-price">460.00</div>
+                </div>
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">baby corn mush paneer sizzler</div>
+                  <div class="dish-price">460.00</div>
+                </div>
+
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">baby corn mush paneer cheese chilly</div>
+                  <div class="dish-price">500.00</div>
+                </div>
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">baby corn cheese chilly</div>
+                  <div class="dish-price">480.00</div>
+                </div>
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">baby corn paneer sizzler</div>
+                  <div class="dish-price">450.00</div>
+                </div>
+
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">baby corn mush sizzler</div>
+                  <div class="dish-price">460.00</div>
+                </div>
+
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">baby corn mush cheese chilly</div>
+                  <div class="dish-price">500.00</div>
+                </div>
+
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">veg. baby corn sizzler</div>
+                  <div class="dish-price">440.00</div>
+                </div>
+
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">mush chill sizzler</div>
+                  <div class="dish-price">460.00</div>
+                </div>
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">mush cheese chill sizzler</div>
+                  <div class="dish-price">480.00</div>
+                </div>
+
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">veg. gobi manchurian sizzler</div>
+                  <div class="dish-price">460.00</div>
+                </div>
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">gobi manchurian cheese</div>
+                  <div class="dish-price">480.00</div>
+                </div>
+
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">veg. gobi manchurian baby corn</div>
+                  <div class="dish-price">460.00</div>
+                </div>
+
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">veg. gobi manchurian paneer cheese</div>
+                  <div class="dish-price">500.00</div>
+                </div>
+
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">manchurian baby corn chilly</div>
+                  <div class="dish-price">490.00</div>
+                </div>
+
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">manchurian baby corn cheese chilly</div>
+                  <div class="dish-price">500.00</div>
+                </div>
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">manchurian mush cheese chilly</div>
+                  <div class="dish-price">500.00</div>
+                </div>
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">platers sizzler</div>
+                  <div class="dish-price">625.00</div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+
+
+        </div>
+        <!-- right menu -->
+        <div class="col-md-6">
+
+          <!-- menu category indian starter's -->
+          <div id="accordion">
+            <div class="card">
+              <div class="card-header" id="headingOne">
+                <h5 class="mb-0 text-center">
+                  <button class="btn text-uppercase font-weight-bold" data-toggle="collapse" data-target="#ten"
+                    aria-expanded="true" aria-controls="ten">
+                    Indian starter's
+                    <!-- <i class="indicator fa fa-chevron-up ml-2" aria-hidden="true"></i> -->
+                  </button>
+                </h5>
+              </div>
+              <div id="" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+                <!-- menu -->
+                <div class="menu">
+                  <!-- menu items -->
+                  <div class="menu-items d-flex justify-content-between p-2">
+                    <div class="dish-name">veg. pakoda </div>
+                    <div class="dish-price">180.00</div>
+                  </div>
+
+                  <div class="dotted-border"></div>
+
+                  <div class="menu-items d-flex justify-content-between p-2">
+                    <div class="dish-name">paneer pakoda</div>
+                    <div class="dish-price">200.00</div>
+                  </div>
+                </div>
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">aloo tikki</div>
+                  <div class="dish-price">180.00</div>
+                </div>
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">aloo methi tikki</div>
+                  <div class="dish-price">190.00</div>
+                </div>
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">corn tikki</div>
+                  <div class="dish-price">190.00</div>
+                </div>
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">hara bhara kabab</div>
+                  <div class="dish-price">200.00</div>
+                </div>
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">aloo till tinga</div>
+                  <div class="dish-price">200.00</div>
+                </div>
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">kaju methi roll</div>
+                  <div class="dish-price">210.00</div>
+                </div>
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">kaju methi roll</div>
+                  <div class="dish-price">210.00</div>
+                </div>
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">navarang tikki</div>
+                  <div class="dish-price">200.00</div>
+                </div>
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">palak chilly kabab</div>
+                  <div class="dish-price">210.00</div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+
+          <!-- menu category tandoory snack's -->
+          <div id="accordion">
+            <div class="card">
+              <div class="card-header" id="headingOne">
+                <h5 class="mb-0 text-center">
+                  <button class="btn text-uppercase font-weight-bold" data-toggle="collapse" data-target="#eleven"
+                    aria-expanded="true" aria-controls="eleven">
+                    tandoori snack's
+                    <!-- <i class="indicator fa fa-chevron-up ml-2" aria-hidden="true"></i> -->
+                  </button>
+                </h5>
+              </div>
+              <div id="" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+                <!-- menu -->
+                <div class="menu">
+                  <!-- menu items -->
+                  <div class="menu-items d-flex justify-content-between p-2">
+                    <div class="dish-name">paneer tikka</div>
+                    <div class="dish-price">260.00</div>
+                  </div>
+
+                  <div class="dotted-border"></div>
+
+                  <div class="menu-items d-flex justify-content-between p-2">
+                    <div class="dish-name">paneer malai tikka</div>
+                    <div class="dish-price">270.00</div>
+                  </div>
+                </div>
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">paneer pahadi tikka</div>
+                  <div class="dish-price">260.00</div>
+                </div>
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">paneer lasooni tikka</div>
+                  <div class="dish-price">260.00</div>
+                </div>
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">paneer adraki tikka</div>
+                  <div class="dish-price">260.00</div>
+                </div>
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">paneer methi sheekh kabab</div>
+                  <div class="dish-price">280.00</div>
+                </div>
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">paneer malai sheekh kabab</div>
+                  <div class="dish-price">280.00</div>
+                </div>
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">paneer ka sangam</div>
+                  <div class="dish-price">280.00</div>
+                </div>
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">paneer achary tikka</div>
+                  <div class="dish-price">270.00</div>
+                </div>
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">paneer paper tikka</div>
+                  <div class="dish-price">270.00</div>
+                </div>
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">mushroom tikka</div>
+                  <div class="dish-price">270.00</div>
+                </div>
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">mushroom pahadi tikka</div>
+                  <div class="dish-price">280.00</div>
+                </div>
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">aloo tikka</div>
+                  <div class="dish-price">230.00</div>
+                </div>
+
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">baby corn tandoori</div>
+                  <div class="dish-price">270.00</div>
+                </div>
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">gobi tandoori</div>
+                  <div class="dish-price">260.00</div>
+                </div>
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">veg. sheekh kabab</div>
+                  <div class="dish-price">260.00</div>
+                </div>
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">veg. cheese sheekh kabab</div>
+                  <div class="dish-price">280.00</div>
+                </div>
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">veg. chilly milly kabab</div>
+                  <div class="dish-price">280.00</div>
+                </div>
+
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">palak methi sheekh kabab</div>
+                  <div class="dish-price">290.00</div>
+                </div>
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">comoto paneer</div>
+                  <div class="dish-price">290.00</div>
+                </div>
+
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">veg. sizzel's special platter</div>
+                  <div class="dish-price">510.00</div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+
+          <!-- menu category indian main course -->
+          <div id="accordion">
+            <div class="card">
+              <div class="card-header" id="headingOne">
+                <h5 class="mb-0 text-center">
+                  <button class="btn text-uppercase font-weight-bold" data-toggle="collapse" data-target="#twelve"
+                    aria-expanded="true" aria-controls="twelve">
+                    indian main course(11.00 AM to 4.00 PM & 7.00 PM to 11.45 PM)
+                    <!-- <i class="indicator fa fa-chevron-up ml-2" aria-hidden="true"></i> -->
+                  </button>
+                </h5>
+              </div>
+              <div id="" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+                <!-- menu -->
+                <div class="menu">
+                  <!-- menu items -->
+                  <div class="menu-items d-flex justify-content-between p-2">
+                    <div class="dish-name">aloo mutter</div>
+                    <div class="dish-price">190.00</div>
+                  </div>
+
+                  <div class="dotted-border"></div>
+
+                  <div class="menu-items d-flex justify-content-between p-2">
+                    <div class="dish-name">aloo gobi</div>
+                    <div class="dish-price">190.00</div>
+                  </div>
+                </div>
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">aloo jeera</div>
+                  <div class="dish-price">190.00</div>
+                </div>
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">aloo methi</div>
+                  <div class="dish-price">200.00</div>
+                </div>
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">aloo palak</div>
+                  <div class="dish-price">200.00</div>
+                </div>
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">plain palak</div>
+                  <div class="dish-price">200.00</div>
+                </div>
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">chana masala</div>
+                  <div class="dish-price">200.00</div>
+                </div>
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">paneer chana</div>
+                  <div class="dish-price">220.00</div>
+                </div>
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">chhole bhatura (2 pcs.)</div>
+                  <div class="dish-price">220.00</div>
+                </div>
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">bhatura (1 pcs.)</div>
+                  <div class="dish-price">50.00</div>
+                </div>
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">boiled Veg.</div>
+                  <div class="dish-price">180.00</div>
+                </div>
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">green peas masala</div>
+                  <div class="dish-price">200.00</div>
+                </div>
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">mix veg.</div>
+                  <div class="dish-price">210.00</div>
+                </div>
+
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">navratan kurma</div>
+                  <div class="dish-price">220.00</div>
+                </div>
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">methi malai mutter</div>
+                  <div class="dish-price">230.00</div>
+                </div>
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">veg. kofta</div>
+                  <div class="dish-price">230.00</div>
+                </div>
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">malai kofta</div>
+                  <div class="dish-price">230.00</div>
+                </div>
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">kashmiri kofta</div>
+                  <div class="dish-price">230.00</div>
+                </div>
+
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">paneer kofta</div>
+                  <div class="dish-price">260.00</div>
+                </div>
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">cheese kofta</div>
+                  <div class="dish-price">280.00</div>
+                </div>
+
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">veg. chop masala</div>
+                  <div class="dish-price">210.00</div>
+                </div>
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">veg. jaipuri</div>
+                  <div class="dish-price">220.00</div>
+                </div>
+
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">veg. chilly milly</div>
+                  <div class="dish-price">250.00</div>
+                </div>
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">veg. tawa masala</div>
+                  <div class="dish-price">240.00</div>
+                </div>
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">mix tawa</div>
+                  <div class="dish-price">260.00</div>
+                </div>
+
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">veg. kurma</div>
+                  <div class="dish-price">230.00</div>
+                </div>
+
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">veg. jalfrazee</div>
+                  <div class="dish-price">240.00</div>
+                </div>
+
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">veg. kolhapuri</div>
+                  <div class="dish-price">230.00</div>
+                </div>
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">veg. kadai</div>
+                  <div class="dish-price">240.00</div>
+                </div>
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">veg. handi</div>
+                  <div class="dish-price">250.00</div>
+                </div>
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">veg. maharaja</div>
+                  <div class="dish-price">240.00</div>
+                </div>
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">veg. makhanwala</div>
+                  <div class="dish-price">230.00</div>
+                </div>
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">veg. hariyali</div>
+                  <div class="dish-price">230.00</div>
+                </div>
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">veg. hydrabadi</div>
+                  <div class="dish-price">240.00</div>
+                </div>
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">hara bhara kabab masala</div>
+                  <div class="dish-price">240.00</div>
+                </div>
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">tomato bhartha</div>
+                  <div class="dish-price">220.00</div>
+                </div>
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">baingan bhartha</div>
+                  <div class="dish-price">220.00</div>
+                </div>
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">bhendi masala</div>
+                  <div class="dish-price">220.00</div>
+                </div>
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">bhendi fry</div>
+                  <div class="dish-price">220.00</div>
+                </div>
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">bhendi do pyaaza</div>
+                  <div class="dish-price">230.00</div>
+                </div>
+
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">stuff tomato</div>
+                  <div class="dish-price">230.00</div>
+                </div>
+
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">stuff capsicum</div>
+                  <div class="dish-price">230.00</div>
+                </div>
+
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">dum aloo punjabi</div>
+                  <div class="dish-price">230.00</div>
+                </div>
+
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">dum aloo kashmiri</div>
+                  <div class="dish-price">230.00</div>
+                </div>
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">paneer handi</div>
+                  <div class="dish-price">260.00</div>
+                </div>
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">mix handi</div>
+                  <div class="dish-price">260.00</div>
+                </div>
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">paneer kadai</div>
+                  <div class="dish-price">250.00</div>
+                </div>
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">paneer tawa</div>
+                  <div class="dish-price">250.00</div>
+                </div>
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">paneer palak</div>
+                  <div class="dish-price">240.00</div>
+                </div>
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">paneer mutter</div>
+                  <div class="dish-price">240.00</div>
+                </div>
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">paneer kurma</div>
+                  <div class="dish-price">250.00</div>
+                </div>
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">paneer bhurji</div>
+                  <div class="dish-price">260.00</div>
+                </div>
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">paneer masala</div>
+                  <div class="dish-price">240.00</div>
+                </div>
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">paneer pasanda</div>
+                  <div class="dish-price">250.00</div>
+                </div>
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">paneer kolhapuri</div>
+                  <div class="dish-price">250.00</div>
+                </div>
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">paneer makhanwala</div>
+                  <div class="dish-price">250.00</div>
+                </div>
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">paneer shahi kurma</div>
+                  <div class="dish-price">250.00</div>
+                </div>
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">paneer tikka masala</div>
+                  <div class="dish-price">260.00</div>
+                </div>
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">paneer amritsari</div>
+                  <div class="dish-price">260.00</div>
+                </div>
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">paneer butter masala</div>
+                  <div class="dish-price">250.00</div>
+                </div>
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">paneer mushroom baby corn masala</div>
+                  <div class="dish-price">260.00</div>
+                </div>
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">paneer tomato bhartha</div>
+                  <div class="dish-price">240.00</div>
+                </div>
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">paneer methi</div>
+                  <div class="dish-price">240.00</div>
+                </div>
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">lasooni methi</div>
+                  <div class="dish-price">230.00</div>
+                </div>
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">losooni palak</div>
+                  <div class="dish-price">240.00</div>
+                </div>
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">methi mutter masala</div>
+                  <div class="dish-price">230.00</div>
+                </div>
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">mushroom masala</div>
+                  <div class="dish-price">240.00</div>
+                </div>
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">mushroom tawa</div>
+                  <div class="dish-price">250.00</div>
+                </div>
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">mushroom kadai</div>
+                  <div class="dish-price">250.00</div>
+                </div>
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">mushroom handi</div>
+                  <div class="dish-price">260.00</div>
+                </div>
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">mushroom tikka masala</div>
+                  <div class="dish-price">260.00</div>
+                </div>
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">mushroom kheema</div>
+                  <div class="dish-price">250.00</div>
+                </div>
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">mushroom amritsari</div>
+                  <div class="dish-price">250.00</div>
+                </div>
+
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">mushroom handi</div>
+                  <div class="dish-price">260.00</div>
+                </div>
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">mushroom tikka masala</div>
+                  <div class="dish-price">260.00</div>
+                </div>
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">mushroom kheema</div>
+                  <div class="dish-price">250.00</div>
+                </div>
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">mushroom amritsari</div>
+                  <div class="dish-price">250.00</div>
+                </div>
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">baby corn masala</div>
+                  <div class="dish-price">240.00</div>
+                </div>
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">baby corn tikka masala</div>
+                  <div class="dish-price">260.00</div>
+                </div>
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">baby corn tawa</div>
+                  <div class="dish-price">250.00</div>
+                </div>
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">baby corn handi</div>
+                  <div class="dish-price">260.00</div>
+                </div>
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">baby corn kadai</div>
+                  <div class="dish-price">260.00</div>
+                </div>
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">mix kadai</div>
+                  <div class="dish-price">260.00</div>
+                </div>
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">corn makhanwala</div>
+                  <div class="dish-price">230.00</div>
+                </div>
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">corn paneer masala</div>
+                  <div class="dish-price">250.00</div>
+                </div>
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">corn palak</div>
+                  <div class="dish-price">230.00</div>
+                </div>
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">corn paneer mushroom masala</div>
+                  <div class="dish-price">250.00</div>
+                </div>
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">kaju palak</div>
+                  <div class="dish-price">250.00</div>
+                </div>
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">kaju makhanwala</div>
+                  <div class="dish-price">250.00</div>
+                </div>
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">kaju koya</div>
+                  <div class="dish-price">260.00</div>
+                </div>
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">kaju masala</div>
+                  <div class="dish-price">260.00</div>
+                </div>
+
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">plain dal</div>
+                  <div class="dish-price">160.00</div>
+                </div>
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">dal fry</div>
+                  <div class="dish-price">180.00</div>
+                </div>
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">dal tadka</div>
+                  <div class="dish-price">190.00</div>
+                </div>
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">butter dal fry</div>
+                  <div class="dish-price">190.00</div>
+                </div>
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">dal kolhapuri</div>
+                  <div class="dish-price">190.00</div>
+                </div>
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">dal palak</div>
+                  <div class="dish-price">190.00</div>
+                </div>
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">dal makhani</div>
+                  <div class="dish-price">200.00</div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+
+          <!-- menu category veg khajana special -->
+          <div id="accordion">
+            <div class="card">
+              <div class="card-header" id="headingOne">
+                <h5 class="mb-0 text-center">
+                  <button class="btn text-uppercase font-weight-bold" data-toggle="collapse" data-target="#thirteen"
+                    aria-expanded="true" aria-controls="thirteen">
+                    veg khajana special(11 AM to 4.00 PM & 7.00 PM to 11.45 PM)
+                    <!-- <i class="indicator fa fa-chevron-up ml-2" aria-hidden="true"></i> -->
+                  </button>
+                </h5>
+              </div>
+              <div id="" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+                <!-- menu -->
+                <div class="menu">
+                  <!-- menu items -->
+                  <div class="menu-items d-flex justify-content-between p-2">
+                    <div class="dish-name">veg. falguni</div>
+                    <div class="dish-price">260.00</div>
+                  </div>
+
+                  <div class="dotted-border"></div>
+
+                  <div class="menu-items d-flex justify-content-between p-2">
+                    <div class="dish-name">paneer ludhiyana</div>
+                    <div class="dish-price">270.00</div>
+                  </div>
+                </div>
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">paneer lababdar</div>
+                  <div class="dish-price">270.00</div>
+                </div>
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">veg. tiranga</div>
+                  <div class="dish-price">280.00</div>
+                </div>
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">special veg.</div>
+                  <div class="dish-price">270.00</div>
+                </div>
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">veg. mandarathi</div>
+                  <div class="dish-price">280.00</div>
+                </div>
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">veg. diwani handi</div>
+                  <div class="dish-price">270.00</div>
+                </div>
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">veg. bhoona masala</div>
+                  <div class="dish-price">270.00</div>
+                </div>
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">veg. hangama</div>
+                  <div class="dish-price">280.00</div>
+                </div>
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">veg. lalpari</div>
+                  <div class="dish-price">270.00</div>
+                </div>
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">veg. rajastani</div>
+                  <div class="dish-price">260.00</div>
+                </div>
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">veg. peshawari</div>
+                  <div class="dish-price">260.00</div>
+                </div>
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">veg. patiyala</div>
+                  <div class="dish-price">270.00</div>
+                </div>
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">veg. malwani</div>
+                  <div class="dish-price">270.00</div>
+                </div>
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">veg. lajawad</div>
+                  <div class="dish-price">280.00</div>
+                </div>
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">veg. afghani</div>
+                  <div class="dish-price">270.00</div>
+                </div>
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">veg. hunan</div>
+                  <div class="dish-price">270.00</div>
+                </div>
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">cheese angoori</div>
+                  <div class="dish-price">290.00</div>
+                </div>
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">paneer roll curry</div>
+                  <div class="dish-price">280.00</div>
+                </div>
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">paneer chatpata</div>
+                  <div class="dish-price">270.00</div>
+                </div>
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">paneer koliwada masala</div>
+                  <div class="dish-price">260.00</div>
+                </div>
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">paneer dopyaza</div>
+                  <div class="dish-price">270.00</div>
+                </div>
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">paneer lajawab</div>
+                  <div class="dish-price">270.00</div>
+                </div>
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">paneer peshawari kofta</div>
+                  <div class="dish-price">270.00</div>
+                </div>
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">nargeese kofta</div>
+                  <div class="dish-price">260.00</div>
+                </div>
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">peshawari kofta</div>
+                  <div class="dish-price">280.00</div>
+                </div>
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">sarso ka sag</div>
+                  <div class="dish-price">270.00</div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+
+          <!-- menu category indian bread -->
+          <div id="accordion">
+            <div class="card">
+              <div class="card-header" id="headingOne">
+                <h5 class="mb-0 text-center">
+                  <button class="btn text-uppercase font-weight-bold" data-toggle="collapse" data-target="#fourteen"
+                    aria-expanded="true" aria-controls="fourteen">
+                    indian bread
+                    <!-- <i class="indicator fa fa-chevron-up ml-2" aria-hidden="true"></i> -->
+                  </button>
+                </h5>
+              </div>
+              <div id="" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+                <!-- menu -->
+                <div class="menu">
+                  <!-- menu items -->
+                  <div class="menu-items d-flex justify-content-between p-2">
+                    <div class="dish-name">roti</div>
+                    <div class="dish-price">30.00</div>
+                  </div>
+
+                  <div class="dotted-border"></div>
+
+                  <div class="menu-items d-flex justify-content-between p-2">
+                    <div class="dish-name">butter roti</div>
+                    <div class="dish-price">40.00</div>
+                  </div>
+                </div>
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">methi roti</div>
+                  <div class="dish-price">40.00</div>
+                </div>
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">pudina roti</div>
+                  <div class="dish-price">40.00</div>
+                </div>
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">khasta roti</div>
+                  <div class="dish-price">45.00</div>
+                </div>
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">missi roti</div>
+                  <div class="dish-price">45.00</div>
+                </div>
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">makai roti</div>
+                  <div class="dish-price">45.00</div>
+                </div>
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">veg sizzel's basket (roti ki tokri)</div>
+                  <div class="dish-price">260.00</div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+
+          <!-- menu category kulcha -->
+          <div id="accordion">
+            <div class="card">
+              <div class="card-header" id="headingOne">
+                <h5 class="mb-0 text-center">
+                  <button class="btn text-uppercase font-weight-bold" data-toggle="collapse" data-target="#fifteen"
+                    aria-expanded="true" aria-controls="fifteen">
+                    kulcha
+                    <!-- <i class="indicator fa fa-chevron-up ml-2" aria-hidden="true"></i> -->
+                  </button>
+                </h5>
+              </div>
+              <div id="" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+                <!-- menu -->
+                <div class="menu">
+                  <!-- menu items -->
+                  <div class="menu-items d-flex justify-content-between p-2">
+                    <div class="dish-name">kulcha</div>
+                    <div class="dish-price">50.00</div>
+                  </div>
+
+                  <div class="dotted-border"></div>
+
+                  <div class="menu-items d-flex justify-content-between p-2">
+                    <div class="dish-name">butter kulcha</div>
+                    <div class="dish-price">55.00</div>
+                  </div>
+                </div>
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">stuff kulcha</div>
+                  <div class="dish-price">80.00</div>
+                </div>
+
+
+              </div>
+            </div>
+          </div>
+
+          <!-- menu category paratha -->
+          <div id="accordion">
+            <div class="card">
+              <div class="card-header" id="headingOne">
+                <h5 class="mb-0 text-center">
+                  <button class="btn text-uppercase font-weight-bold" data-toggle="collapse" data-target="#sizteen"
+                    aria-expanded="true" aria-controls="sizteen">
+                    paratha
+                    <!-- <i class="indicator fa fa-chevron-up ml-2" aria-hidden="true"></i> -->
+                  </button>
+                </h5>
+              </div>
+              <div id="" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+                <!-- menu -->
+                <div class="menu">
+                  <!-- menu items -->
+                  <div class="menu-items d-flex justify-content-between p-2">
+                    <div class="dish-name">paratha</div>
+                    <div class="dish-price">50.00</div>
+                  </div>
+
+                  <div class="dotted-border"></div>
+
+                  <div class="menu-items d-flex justify-content-between p-2">
+                    <div class="dish-name">butter paratha</div>
+                    <div class="dish-price">60.00</div>
+                  </div>
+                </div>
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">aloo paratha</div>
+                  <div class="dish-price">110.00</div>
+                </div>
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">gobi paratha</div>
+                  <div class="dish-price">110.00</div>
+                </div>
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">methi paratha</div>
+                  <div class="dish-price">90.00</div>
+                </div>
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">pudina paratha</div>
+                  <div class="dish-price">90.00</div>
+                </div>
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">veg. stuff paratha</div>
+                  <div class="dish-price">110.00</div>
+                </div>
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">paneer stuff paratha</div>
+                  <div class="dish-price">110.00</div>
+                </div>
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">cheese stuff paratha</div>
+                  <div class="dish-price">120.00</div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+
+          <!-- menu category naan -->
+          <div id="accordion">
+            <div class="card">
+              <div class="card-header" id="headingOne">
+                <h5 class="mb-0 text-center">
+                  <button class="btn text-uppercase font-weight-bold" data-toggle="collapse" data-target="#seventeen"
+                    aria-expanded="true" aria-controls="seventeen">
+                    naan
+                    <!-- <i class="indicator fa fa-chevron-up ml-2" aria-hidden="true"></i> -->
+                  </button>
+                </h5>
+              </div>
+              <div id="" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+                <!-- menu -->
+                <div class="menu">
+                  <!-- menu items -->
+                  <div class="menu-items d-flex justify-content-between p-2">
+                    <div class="dish-name">naan</div>
+                    <div class="dish-price">45.00</div>
+                  </div>
+
+                  <div class="dotted-border"></div>
+
+                  <div class="menu-items d-flex justify-content-between p-2">
+                    <div class="dish-name">butter naan</div>
+                    <div class="dish-price">55.00</div>
+                  </div>
+                </div>
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">stuff naan</div>
+                  <div class="dish-price">90.00</div>
+                </div>
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">garlic naan</div>
+                  <div class="dish-price">100.00</div>
+                </div>
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">cheese naan</div>
+                  <div class="dish-price">110.00</div>
+                </div>
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">cheese chilly naan</div>
+                  <div class="dish-price">120.00</div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+
+          <!-- menu category rice -->
+          <div id="accordion">
+            <div class="card">
+              <div class="card-header" id="headingOne">
+                <h5 class="mb-0 text-center">
+                  <button class="btn text-uppercase font-weight-bold" data-toggle="collapse" data-target="#eighteen"
+                    aria-expanded="true" aria-controls="eighteen">
+                    rice
+                    <!-- <i class="indicator fa fa-chevron-up ml-2" aria-hidden="true"></i> -->
+                  </button>
+                </h5>
+              </div>
+              <div id="" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+                <!-- menu -->
+                <div class="menu">
+                  <!-- menu items -->
+                  <div class="menu-items d-flex justify-content-between p-2">
+                    <div class="dish-name">steame rice</div>
+                    <div class="dish-price">170.00</div>
+                  </div>
+
+                  <div class="dotted-border"></div>
+
+                  <div class="menu-items d-flex justify-content-between p-2">
+                    <div class="dish-name">jeera rice</div>
+                    <div class="dish-price">180.00</div>
+                  </div>
+                </div>
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">dal khichdi</div>
+                  <div class="dish-price">190.00</div>
+                </div>
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">curd rice</div>
+                  <div class="dish-price">190.00</div>
+                </div>
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">palak khichdi</div>
+                  <div class="dish-price">200.00</div>
+                </div>
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">veg. pulav</div>
+                  <div class="dish-price">200.00</div>
+                </div>
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">kashmiri pulav</div>
+                  <div class="dish-price">210.00</div>
+                </div>
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">paneer pulav</div>
+                  <div class="dish-price">210.00</div>
+                </div>
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">cheese pulav</div>
+                  <div class="dish-price">250.00</div>
+                </div>
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">green peas pulav</div>
+                  <div class="dish-price">200.00</div>
+                </div>
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">veg. tawa pulav</div>
+                  <div class="dish-price">200.00</div>
+                </div>
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">paneer tawa pulav</div>
+                  <div class="dish-price">230.00</div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+
+          <!-- menu category biryani -->
+          <div id="accordion">
+            <div class="card">
+              <div class="card-header" id="headingOne">
+                <h5 class="mb-0 text-center">
+                  <button class="btn text-uppercase font-weight-bold" data-toggle="collapse" data-target="#ninteen"
+                    aria-expanded="true" aria-controls="ninteen">
+                    biryani
+                    <!-- <i class="indicator fa fa-chevron-up ml-2" aria-hidden="true"></i> -->
+                  </button>
+                </h5>
+              </div>
+              <div id="" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+                <!-- menu -->
+                <div class="menu">
+                  <!-- menu items -->
+                  <div class="menu-items d-flex justify-content-between p-2">
+                    <div class="dish-name">veg. biryani</div>
+                    <div class="dish-price">200.00</div>
+                  </div>
+
+                  <div class="dotted-border"></div>
+
+                  <div class="menu-items d-flex justify-content-between p-2">
+                    <div class="dish-name">veg. dum biryani</div>
+                    <div class="dish-price">230.00</div>
+                  </div>
+                </div>
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">paneer biryani</div>
+                  <div class="dish-price">230.00</div>
+                </div>
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">cheese biryani</div>
+                  <div class="dish-price">250.00</div>
+                </div>
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">veg. hydrabadi biryani</div>
+                  <div class="dish-price">240.00</div>
+                </div>
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">veg. hydrabadi dum biryani</div>
+                  <div class="dish-price">250.00</div>
+                </div>
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">special biryani</div>
+                  <div class="dish-price">270.00</div>
+                </div>
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">veg. tawa biryani</div>
+                  <div class="dish-price">280.00</div>
+                </div>
+
+
+              </div>
+            </div>
+          </div>
+
+          <!-- menu category salad -->
+          <div id="accordion">
+            <div class="card">
+              <div class="card-header" id="headingOne">
+                <h5 class="mb-0 text-center">
+                  <button class="btn text-uppercase font-weight-bold" data-toggle="collapse" data-target="#twenty"
+                    aria-expanded="true" aria-controls="twenty">
+                    Salad's
+                    <!-- <i class="indicator fa fa-chevron-up ml-2" aria-hidden="true"></i> -->
+                  </button>
+                </h5>
+              </div>
+              <div id="" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+                <!-- menu -->
+                <div class="menu">
+                  <!-- menu items -->
+                  <div class="menu-items d-flex justify-content-between p-2">
+                    <div class="dish-name">green salad</div>
+                    <div class="dish-price">80.00</div>
+                  </div>
+
+                  <div class="dotted-border"></div>
+
+                  <div class="menu-items d-flex justify-content-between p-2">
+                    <div class="dish-name">tomato salad</div>
+                    <div class="dish-price">80.00</div>
+                  </div>
+                </div>
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">russian salad</div>
+                  <div class="dish-price">110.00</div>
+                </div>
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">tondoor salad (red/white/green)</div>
+                  <div class="dish-price">120.00</div>
+                </div>
+
+
+
+              </div>
+            </div>
+          </div>
+
+          <!-- menu category salad -->
+          <div id="accordion">
+            <div class="card">
+              <div class="card-header" id="headingOne">
+                <h5 class="mb-0 text-center">
+                  <button class="btn text-uppercase font-weight-bold" data-toggle="collapse" data-target="#twentyone"
+                    aria-expanded="true" aria-controls="twentyone">
+                    raitha's
+                    <!-- <i class="indicator fa fa-chevron-up ml-2" aria-hidden="true"></i> -->
+                  </button>
+                </h5>
+              </div>
+              <div id="" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+                <!-- menu -->
+                <div class="menu">
+                  <!-- menu items -->
+                  <div class="menu-items d-flex justify-content-between p-2">
+                    <div class="dish-name">veg. raitha</div>
+                    <div class="dish-price">90.00</div>
+                  </div>
+
+                  <div class="dotted-border"></div>
+
+                  <div class="menu-items d-flex justify-content-between p-2">
+                    <div class="dish-name">pudina raitha</div>
+                    <div class="dish-price">100.00</div>
+                  </div>
+                </div>
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">palak raitha</div>
+                  <div class="dish-price">110.00</div>
+                </div>
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">pineapple raitha</div>
+                  <div class="dish-price">100.00</div>
+                </div>
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">aloo pudina raitha</div>
+                  <div class="dish-price">100.00</div>
+                </div>
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">boondi raitha</div>
+                  <div class="dish-price">100.00</div>
+                </div>
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">dahi (curd)</div>
+                  <div class="dish-price">100.00</div>
+                </div>
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">roasted papad</div>
+                  <div class="dish-price">35.00</div>
+                </div>
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">fried papad</div>
+                  <div class="dish-price">35.00</div>
+                </div>
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">masala papad</div>
+                  <div class="dish-price">55.00</div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+
+          <!-- menu category chinese soup's -->
+          <div id="accordion">
+            <div class="card">
+              <div class="card-header" id="headingOne">
+                <h5 class="mb-0 text-center">
+                  <button class="btn text-uppercase font-weight-bold" data-toggle="collapse" data-target="#twentytwo"
+                    aria-expanded="true" aria-controls="twentytwo">
+                    chinese soup's (11.00 am to 11.45 pm)
+                    <!-- <i class="indicator fa fa-chevron-up ml-2" aria-hidden="true"></i> -->
+                  </button>
+                </h5>
+              </div>
+              <div id="" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+                <!-- menu -->
+                <div class="menu">
+                  <!-- menu items -->
+                  <div class="menu-items d-flex justify-content-between p-2">
+                    <div class="dish-name">veg. manchow soup</div>
+                    <div class="dish-price">140.00</div>
+                  </div>
+
+                  <div class="dotted-border"></div>
+
+                  <div class="menu-items d-flex justify-content-between p-2">
+                    <div class="dish-name">veg. hot & sour soup</div>
+                    <div class="dish-price">140.00</div>
+                  </div>
+                </div>
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">veg. sweet corn soup</div>
+                  <div class="dish-price">140.00</div>
+                </div>
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">plain sweet corn soup</div>
+                  <div class="dish-price">140.00</div>
+                </div>
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">veg. clear soup</div>
+                  <div class="dish-price">140.00</div>
+                </div>
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">spinach cottage cheese soup</div>
+                  <div class="dish-price">170.00</div>
+                </div>
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">veg. palak soup</div>
+                  <div class="dish-price">140.00</div>
+                </div>
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">veg. lung fung soup</div>
+                  <div class="dish-price">170.00</div>
+                </div>
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">mushroom soup</div>
+                  <div class="dish-price">150.00</div>
+                </div>
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">lemon coriander soup</div>
+                  <div class="dish-price">150.00</div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+
+          <!-- menu category chinese special starters -->
+          <div id="accordion">
+            <div class="card">
+              <div class="card-header" id="headingOne">
+                <h5 class="mb-0 text-center">
+                  <button class="btn text-uppercase font-weight-bold" data-toggle="collapse" data-target="#twentythree"
+                    aria-expanded="true" aria-controls="twentythree">
+                    chinese special starters
+                    <!-- <i class="indicator fa fa-chevron-up ml-2" aria-hidden="true"></i> -->
+                  </button>
+                </h5>
+              </div>
+              <div id="" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+                <!-- menu -->
+                <div class="menu">
+                  <!-- menu items -->
+                  <div class="menu-items d-flex justify-content-between p-2">
+                    <div class="dish-name">spinach manchurian dry</div>
+                    <div class="dish-price">260.00</div>
+                  </div>
+
+                  <div class="dotted-border"></div>
+
+                  <div class="menu-items d-flex justify-content-between p-2">
+                    <div class="dish-name">veg. makai spring roll</div>
+                    <div class="dish-price">250.00</div>
+                  </div>
+                </div>
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">veg. dragon spring roll</div>
+                  <div class="dish-price">270.00</div>
+                </div>
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">veg. mushroom spring roll</div>
+                  <div class="dish-price">270.00</div>
+                </div>
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">veg. paneer spring roll</div>
+                  <div class="dish-price">270.00</div>
+                </div>
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">paneer haveli</div>
+                  <div class="dish-price">280.00</div>
+                </div>
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">paneer shanghai</div>
+                  <div class="dish-price">280.00</div>
+                </div>
+
+
+              </div>
+            </div>
+          </div>
+
+          <!-- menu category desserts -->
+          <div id="accordion">
+            <div class="card">
+              <div class="card-header" id="headingOne">
+                <h5 class="mb-0 text-center">
+                  <button class="btn text-uppercase font-weight-bold" data-toggle="collapse" data-target="#twenty-seven"
+                    aria-expanded="true" aria-controls="twenty-seven">
+                    desserts
+                    <!-- <i class="indicator fa fa-chevron-up ml-2" aria-hidden="true"></i> -->
+                  </button>
+                </h5>
+              </div>
+              <div id="" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+                <!-- menu -->
+                <div class="menu">
+                  <!-- menu items -->
+                  <div class="menu-items d-flex justify-content-between p-2">
+                    <div class="dish-name">fruit salad</div>
+                    <div class="dish-price">140.00</div>
+                  </div>
+
+                  <div class="dotted-border"></div>
+
+                  <div class="menu-items d-flex justify-content-between p-2">
+                    <div class="dish-name">fruit salad with ice cream</div>
+                    <div class="dish-price">170.00</div>
+                  </div>
+                </div>
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">fruit salad jelly with ice cream</div>
+                  <div class="dish-price">180.00</div>
+                </div>
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">vanilla / strawberry / chocolate ice cream</div>
+                  <div class="dish-price">110.00</div>
+                </div>
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">butter scotch ice cream</div>
+                  <div class="dish-price">120.00</div>
+                </div>
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">kulfi malai</div>
+                  <div class="dish-price">90.00</div>
+                </div>
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">kesar pista kulfi</div>
+                  <div class="dish-price">100.00</div>
+                </div>
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">only jelly</div>
+                  <div class="dish-price">120.00</div>
+                </div>
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">jelly with ice cream</div>
+                  <div class="dish-price">140.00</div>
+                </div>
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">chik chok passion</div>
+                  <div class="dish-price">180.00</div>
+                </div>
+
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- ! Beverages -->
+      <div class="heading_container heading_center">
+        <h2 class="text-white mb-3 mt-3">
+          Beverages
+        </h2>
+        <div class="dashed-border"></div>
+
+      </div>
+      <div class="row text-capitalize beverages">
+        <div class="col-md-6">
+
+          <!-- menu category hot beverages-->
+          <div id="accordion">
+            <div class="card">
+              <div class="card-header" id="headingOne">
+                <h5 class="mb-0 text-center">
+                  <button class="btn text-uppercase font-weight-bold" data-toggle="collapse" data-target="#twenty-nine"
+                    aria-expanded="true" aria-controls="twenty-nine">
+                    hot beverages
+                    <!-- <i class="indicator fa fa-chevron-up ml-2" aria-hidden="true"></i> -->
+                  </button>
+                </h5>
+              </div>
+              <div id="" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+                <!-- menu -->
+                <div class="menu">
+                  <!-- menu items -->
+                  <div class="menu-items d-flex justify-content-between p-2">
+                    <div class="dish-name">tea</div>
+                    <div class="dish-price">30.00</div>
+                  </div>
+
+                  <div class="dotted-border"></div>
+
+                  <div class="menu-items d-flex justify-content-between p-2">
+                    <div class="dish-name">black tea</div>
+                    <div class="dish-price">35.00</div>
+                  </div>
+                </div>
+
+                <div class="dotted-border"></div>
+
+                <div class="menu-items d-flex justify-content-between p-2">
+                  <div class="dish-name">nes coffee</div>
+                  <div class="dish-price">40.00</div>
+                </div>
+
+
+              </div>
+            </div>
+          </div>
+
+          <!-- menu category cold beverages-->
+          <div id="accordion">
+            <div class="card">
+              <div class="card-header" id="headingOne">
+                <h5 class="mb-0 text-center">
+                  <button class="btn text-uppercase font-weight-bold" data-toggle="collapse" data-target="#thirty"
+                    aria-expanded="true" aria-controls="thirty">
+                    cold beverages
+                    <!-- <i class="indicator fa fa-chevron-up ml-2" aria-hidden="true"></i> -->
+                  </button>
+                </h5>
+              </div>
+              <div id="" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+                <!-- menu -->
+                <div class="menu">
+                  <!-- menu items -->
+                  <div class="menu-items d-flex justify-content-between p-2">
+                    <div class="dish-name">jaljeera water</div>
+                    <div class="dish-price">60.00</div>
+                  </div>
+
+                  <div class="dotted-border"></div>
+
+                  <div class="menu-items d-flex justify-content-between p-2">
+                    <div class="dish-name">fresh lime water</div>
+                    <div class="dish-price">55.00</div>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+
+          <!-- menu category mocktail's-->
+          <div id="accordion">
+            <div class="card">
+              <div class="card-header" id="headingOne">
+                <h5 class="mb-0 text-center">
+                  <button class="btn text-uppercase font-weight-bold" data-toggle="collapse" data-target="#thirty-six"
+                    aria-expanded="true" aria-controls="thirty-six">
+                    mocktail's
+                    <!-- <i class="indicator fa fa-chevron-up ml-2" aria-hidden="true"></i> -->
+                  </button>
+                </h5>
+              </div>
+              <div id="" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+                <!-- menu -->
+                <div class="menu">
+                  <!-- menu items -->
+                  <div class="menu-items d-flex justify-content-between p-2">
+                    <div class="dish-name">dolphin</div>
+                    <div class="dish-price">180.00</div>
+                  </div>
+
+                  <div class="dotted-border"></div>
+
+                  <div class="menu-items d-flex justify-content-between p-2">
+                    <div class="dish-name">rosy nut</div>
+                    <div class="dish-price">180.00</div>
+                  </div>
+
+                  <div class="dotted-border"></div>
+
+                  <div class="menu-items d-flex justify-content-between p-2">
+                    <div class="dish-name">khabana</div>
+                    <div class="dish-price">170.00</div>
+                  </div>
+
+                  <div class="dotted-border"></div>
+
+                  <div class="menu-items d-flex justify-content-between p-2">
+                    <div class="dish-name">shrawberry funtasy</div>
+                    <div class="dish-price">170.00</div>
+                  </div>
+
+                  <div class="dotted-border"></div>
+
+                  <div class="menu-items d-flex justify-content-between p-2">
+                    <div class="dish-name">madhur milon</div>
+                    <div class="dish-price">180.00</div>
+                  </div>
+
+                  <div class="dotted-border"></div>
+
+                  <div class="menu-items d-flex justify-content-between p-2">
+                    <div class="dish-name">all rounder</div>
+                    <div class="dish-price">180.00</div>
+                  </div>
+
+
+                  <div class="dotted-border"></div>
+
+                  <div class="menu-items d-flex justify-content-between p-2">
+                    <div class="dish-name">lime lake</div>
+                    <div class="dish-price">160.00</div>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <div class="col-md-6">
+
+          <!-- menu category lassi-->
+          <div id="accordion">
+            <div class="card">
+              <div class="card-header" id="headingOne">
+                <h5 class="mb-0 text-center">
+                  <button class="btn text-uppercase font-weight-bold" data-toggle="collapse" data-target="#thirty-one"
+                    aria-expanded="true" aria-controls="thirty-one">
+                    lassi
+                    <!-- <i class="indicator fa fa-chevron-up ml-2" aria-hidden="true"></i> -->
+                  </button>
+                </h5>
+              </div>
+              <div id="" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+                <!-- menu -->
+                <div class="menu">
+                  <!-- menu items -->
+                  <div class="menu-items d-flex justify-content-between p-2">
+                    <div class="dish-name">sweet lassi</div>
+                    <div class="dish-price">90.00</div>
+                  </div>
+
+                  <div class="dotted-border"></div>
+
+                  <div class="menu-items d-flex justify-content-between p-2">
+                    <div class="dish-name">salted lassi</div>
+                    <div class="dish-price">90.00</div>
+                  </div>
+                  <div class="dotted-border"></div>
+
+                  <div class="menu-items d-flex justify-content-between p-2">
+                    <div class="dish-name">mango lassi</div>
+                    <div class="dish-price">120.00</div>
+                  </div>
+
+
+                  <div class="dotted-border"></div>
+
+                  <div class="menu-items d-flex justify-content-between p-2">
+                    <div class="dish-name">badam lassi</div>
+                    <div class="dish-price">150.00</div>
+                  </div>
+
+                  <div class="dotted-border"></div>
+
+                  <div class="menu-items d-flex justify-content-between p-2">
+                    <div class="dish-name">butter milk</div>
+                    <div class="dish-price">55.00</div>
+                  </div>
+
+                  <div class="dotted-border"></div>
+
+                  <div class="menu-items d-flex justify-content-between p-2">
+                    <div class="dish-name">veg. Sizzle's special lassi</div>
+                    <div class="dish-price">150.00</div>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- menu category juice-->
+          <div id="accordion">
+            <div class="card">
+              <div class="card-header" id="headingOne">
+                <h5 class="mb-0 text-center">
+                  <button class="btn text-uppercase font-weight-bold" data-toggle="collapse" data-target="#thirty-two"
+                    aria-expanded="true" aria-controls="thirty-two">
+                    juice
+                    <!-- <i class="indicator fa fa-chevron-up ml-2" aria-hidden="true"></i> -->
+                  </button>
+                </h5>
+              </div>
+              <div id="" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+                <!-- menu -->
+                <div class="menu">
+                  <!-- menu items -->
+                  <div class="menu-items d-flex justify-content-between p-2">
+                    <div class="dish-name">mosambi juice</div>
+                    <div class="dish-price">95.00</div>
+                  </div>
+
+                  <div class="dotted-border"></div>
+
+                  <div class="menu-items d-flex justify-content-between p-2">
+                    <div class="dish-name">orange juice</div>
+                    <div class="dish-price">95.00</div>
+                  </div>
+                  <div class="dotted-border"></div>
+
+                  <div class="menu-items d-flex justify-content-between p-2">
+                    <div class="dish-name">water melon juice</div>
+                    <div class="dish-price">95.00</div>
+                  </div>
+
+
+                  <div class="dotted-border"></div>
+
+                  <div class="menu-items d-flex justify-content-between p-2">
+                    <div class="dish-name">pineapple juice</div>
+                    <div class="dish-price">95.00</div>
+                  </div>
+
+                  <div class="dotted-border"></div>
+
+                  <div class="menu-items d-flex justify-content-between p-2">
+                    <div class="dish-name">grapes juice</div>
+                    <div class="dish-price">110.00</div>
+                  </div>
+
+                  <div class="dotted-border"></div>
+
+                  <div class="menu-items d-flex justify-content-between p-2">
+                    <div class="dish-name">apple juice</div>
+                    <div class="dish-price">120.00</div>
+                  </div>
+
+                  <div class="dotted-border"></div>
+
+                  <div class="menu-items d-flex justify-content-between p-2">
+                    <div class="dish-name">ganga jamuna juice</div>
+                    <div class="dish-price">120.00</div>
+                  </div>
+
+
+                  <div class="dotted-border"></div>
+
+                  <div class="menu-items d-flex justify-content-between p-2">
+                    <div class="dish-name">mara mari juice</div>
+                    <div class="dish-price">120.00</div>
+                  </div>
+
+
+                  <div class="dotted-border"></div>
+
+                  <div class="menu-items d-flex justify-content-between p-2">
+                    <div class="dish-name">cocktail juice</div>
+                    <div class="dish-price">120.00</div>
+                  </div>
+
+
+                  <div class="dotted-border"></div>
+
+                  <div class="menu-items d-flex justify-content-between p-2">
+                    <div class="dish-name">mango juice</div>
+                    <div class="dish-price">130.00</div>
+                  </div>
+
+
+                  <div class="dotted-border"></div>
+
+                  <div class="menu-items d-flex justify-content-between p-2">
+                    <div class="dish-name">mango juice (seasonal)</div>
+                    <div class="dish-price">150.00</div>
+                  </div>
+
+
+                  <div class="dotted-border"></div>
+
+                  <div class="menu-items d-flex justify-content-between p-2">
+                    <div class="dish-name">carrot juice</div>
+                    <div class="dish-price">120.00</div>
+                  </div>
+
+
+                  <div class="dotted-border"></div>
+
+                  <div class="menu-items d-flex justify-content-between p-2">
+                    <div class="dish-name">anar juice</div>
+                    <div class="dish-price">140.00</div>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- menu category milk shakes-->
+          <div id="accordion">
+            <div class="card">
+              <div class="card-header" id="headingOne">
+                <h5 class="mb-0 text-center">
+                  <button class="btn text-uppercase font-weight-bold" data-toggle="collapse" data-target="#thirty-three"
+                    aria-expanded="true" aria-controls="thirty-three">
+                    milk shakes
+                    <!-- <i class="indicator fa fa-chevron-up ml-2" aria-hidden="true"></i> -->
+                  </button>
+                </h5>
+              </div>
+              <div id="" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+                <!-- menu -->
+                <div class="menu">
+                  <!-- menu items -->
+                  <div class="menu-items d-flex justify-content-between p-2">
+                    <div class="dish-name">chickoo</div>
+                    <div class="dish-price">140.00</div>
+                  </div>
+
+                  <div class="dotted-border"></div>
+
+                  <div class="menu-items d-flex justify-content-between p-2">
+                    <div class="dish-name">sitafal milk shake (seasonal)</div>
+                    <div class="dish-price">150.00</div>
+                  </div>
+                  <div class="dotted-border"></div>
+
+                  <div class="menu-items d-flex justify-content-between p-2">
+                    <div class="dish-name">apple milk shake</div>
+                    <div class="dish-price">150.00</div>
+                  </div>
+
+
+                  <div class="dotted-border"></div>
+
+                  <div class="menu-items d-flex justify-content-between p-2">
+                    <div class="dish-name">banana milk shake</div>
+                    <div class="dish-price">140.00</div>
+                  </div>
+
+                  <div class="dotted-border"></div>
+
+                  <div class="menu-items d-flex justify-content-between p-2">
+                    <div class="dish-name">rose milk shake</div>
+                    <div class="dish-price">140.00</div>
+                  </div>
+
+                  <div class="dotted-border"></div>
+
+                  <div class="menu-items d-flex justify-content-between p-2">
+                    <div class="dish-name">kesar milk shake</div>
+                    <div class="dish-price">140.00</div>
+                  </div>
+
+                  <div class="dotted-border"></div>
+
+                  <div class="menu-items d-flex justify-content-between p-2">
+                    <div class="dish-name">chocolate</div>
+                    <div class="dish-price">140.00</div>
+                  </div>
+
+
+                  <div class="dotted-border"></div>
+
+                  <div class="menu-items d-flex justify-content-between p-2">
+                    <div class="dish-name">strawberry</div>
+                    <div class="dish-price">140.00</div>
+                  </div>
+
+
+                  <div class="dotted-border"></div>
+
+                  <div class="menu-items d-flex justify-content-between p-2">
+                    <div class="dish-name">mango milk shake</div>
+                    <div class="dish-price">150.00</div>
+                  </div>
+
+
+                  <div class="dotted-border"></div>
+
+                  <div class="menu-items d-flex justify-content-between p-2">
+                    <div class="dish-name">mango milk shake (seasonal)</div>
+                    <div class="dish-price">170.00</div>
+                  </div>
+
+
+                  <div class="dotted-border"></div>
+
+                  <div class="menu-items d-flex justify-content-between p-2">
+                    <div class="dish-name">vanilla milk shake</div>
+                    <div class="dish-price">140.00</div>
+                  </div>
+
+                  <div class="dotted-border"></div>
+
+                  <div class="menu-items d-flex justify-content-between p-2">
+                    <div class="dish-name">shrawberry (seasonal)</div>
+                    <div class="dish-price">160.00</div>
+                  </div>
+
+                  <div class="dotted-border"></div>
+
+                  <div class="menu-items d-flex justify-content-between p-2">
+                    <div class="dish-name">cold coffee</div>
+                    <div class="dish-price">140.00</div>
+                  </div>
+
+                  <div class="dotted-border"></div>
+
+                  <div class="menu-items d-flex justify-content-between p-2">
+                    <div class="dish-name">cold coffee with ice-cream</div>
+                    <div class="dish-price">150.00</div>
+                  </div>
+
+                  <div class="dotted-border"></div>
+
+                  <div class="menu-items d-flex justify-content-between p-2">
+                    <div class="dish-name">dry fruit milk shake</div>
+                    <div class="dish-price">210.00</div>
+                  </div>
+
+                  <div class="dotted-border"></div>
+
+                  <div class="menu-items d-flex justify-content-between p-2">
+                    <div class="dish-name">kesar dry fruit milk shake</div>
+                    <div class="dish-price">210.00</div>
+                  </div>
+
+                  <div class="dotted-border"></div>
+
+                  <div class="menu-items d-flex justify-content-between p-2">
+                    <div class="dish-name">kaju anjir milk shake</div>
+                    <div class="dish-price">210.00</div>
+                  </div>
+
+                  <div class="dotted-border"></div>
+
+                  <div class="menu-items d-flex justify-content-between p-2">
+                    <div class="dish-name">badam milk shake</div>
+                    <div class="dish-price">210.00</div>
+                  </div>
+
+                  <div class="dotted-border"></div>
+
+                  <div class="menu-items d-flex justify-content-between p-2">
+                    <div class="dish-name">badam pista milk shake</div>
+                    <div class="dish-price">210.00</div>
+                  </div>
+
+                  <div class="dotted-border"></div>
+
+                  <div class="menu-items d-flex justify-content-between p-2">
+                    <div class="dish-name">veg. sizzle's special milk shake</div>
+                    <div class="dish-price">210.00</div>
+                  </div>
+
+                  <div class="dotted-border"></div>
+
+                  <p>( with ice cream charged rs.40/- extra )</p>
+
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- menu category faloodas-->
+          <div id="accordion">
+            <div class="card">
+              <div class="card-header" id="headingOne">
+                <h5 class="mb-0 text-center">
+                  <button class="btn text-uppercase font-weight-bold" data-toggle="collapse" data-target="#thirty-four"
+                    aria-expanded="true" aria-controls="thirty-four">
+                    faloodas
+                    <!-- <i class="indicator fa fa-chevron-up ml-2" aria-hidden="true"></i> -->
+                  </button>
+                </h5>
+              </div>
+              <div id="" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+                <!-- menu -->
+                <div class="menu">
+                  <!-- menu items -->
+                  <div class="menu-items d-flex justify-content-between p-2">
+                    <div class="dish-name">kulfi falooda</div>
+                    <div class="dish-price">160.00</div>
+                  </div>
+
+                  <div class="dotted-border"></div>
+
+                  <div class="menu-items d-flex justify-content-between p-2">
+                    <div class="dish-name">kesar falooda</div>
+                    <div class="dish-price">165.00</div>
+                  </div>
+                  <div class="dotted-border"></div>
+
+                  <div class="menu-items d-flex justify-content-between p-2">
+                    <div class="dish-name">royal falooda</div>
+                    <div class="dish-price">160.00</div>
+                  </div>
+
+                  <div class="dotted-border"></div>
+
+                  <div class="menu-items d-flex justify-content-between p-2">
+                    <div class="dish-name">veg. sizzle's special falooda</div>
+                    <div class="dish-price">190.00</div>
+                  </div>
+
+
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- menu category blossoms-->
+          <div id="accordion">
+            <div class="card">
+              <div class="card-header" id="headingOne">
+                <h5 class="mb-0 text-center">
+                  <button class="btn text-uppercase font-weight-bold" data-toggle="collapse" data-target="#thirty-five"
+                    aria-expanded="true" aria-controls="thirty-five">
+                    blossoms
+                    <!-- <i class="indicator fa fa-chevron-up ml-2" aria-hidden="true"></i> -->
+                  </button>
+                </h5>
+              </div>
+              <div id="" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+                <!-- menu -->
+                <div class="menu">
+                  <!-- menu items -->
+                  <div class="menu-items d-flex justify-content-between p-2">
+                    <div class="dish-name">orange blossom (orange juice with ice cream)</div>
+                    <div class="dish-price">150.00</div>
+                  </div>
+
+                  <div class="dotted-border"></div>
+
+                  <div class="menu-items d-flex justify-content-between p-2">
+                    <div class="dish-name">pineapple blossom (pineapple juice with ice cream)</div>
+                    <div class="dish-price">150.00</div>
+                  </div>
+                  <div class="dotted-border"></div>
+
+                  <div class="menu-items d-flex justify-content-between p-2">
+                    <div class="dish-name">watermelon blossom (watermelon juice with ice cream)</div>
+                    <div class="dish-price">150.00</div>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+
+
+
+    </div>
+  </section>
+
+
+  <!--Footer-->
+  <footer class="padding-top bg_black">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3 col-sm-6 footer_column">
+          <h4 class="heading">Why Veg Sizzle's?</h4>
+          <hr class="half_space">
+          <p class="half_space">Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat,
+            vel illum dolore dolor in hendrerit in vulputate.</p>
+          <p>Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl.</p>
+        </div>
+        <div class="col-md-3 col-sm-6 footer_column">
+          <h4 class="heading">Quick Links</h4>
+          <hr class="half_space">
+          <ul class="widget_links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="location.html">Locations</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+          </ul>
+        </div>
+        <div class="col-md-3 col-sm-6 footer_column">
+          <h4 class="heading">Newsletter</h4>
+          <hr class="half_space">
+          <p class="icon"><i class="icon-dollar"></i>Sign up with your name and email to get updates fresh updates.</p>
+          <div id="result1" class="text-center"></div>
+
+          <form action="" method="" onSubmit="return false" class="newsletter">
+            <div class="form-group">
+              <input type="email" placeholder="E-mail Address" required name="EMAIL" id="EMAIL" class="form-control" />
+            </div>
+            <div class="form-group">
+              <input type="submit" class="btn-submit button3" value="Subscribe" />
+            </div>
+          </form>
+        </div>
+        <div class="col-md-3 col-sm-6 footer_column">
+          <h4 class="heading">Get in Touch</h4>
+          <hr class="half_space">
+          <!-- <p>Restaurant, to consequat ipsum nec sagittis sem.</p> -->
+          <p class="address"><i class="icon-location"></i>Shop No., 03, 'A' Wing, parshwanath charitable trust,
+            kasarwadawali, ghodbundar road, thane west, opp. hypercity mall</p>
+          <p class="address"><i class="fa fa-phone"></i>(+91) 932 636 3200</p>
+          <p class="address"><i class="fa fa-phone"></i>022 2597 6003 </p>
+          <!-- <p class="address"><i class="icon-dollar"></i><a href="mailto:">hello@website.com</a></p> -->
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <div class="copyright clearfix">
+            <p>Copyright &copy; 2023 Veg Sizzle's. All Right Reserved</p>
+            <ul class="social_icon">
+              <li><a href="#" class="facebook"><i class="icon-facebook5"></i></a></li>
+              <li><a href="#" class="twitter"><i class="icon-twitter4"></i></a></li>
+              <li><a href="#" class="google"><i class="icon-google"></i></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <a href="#." id="back-top"><i class="fa fa-angle-up fa-2x"></i></a>
+
+  <script src="js/jquery-2.2.3.js" type="text/javascript"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"
+    integrity="sha512-DUC8yqWf7ez3JD1jszxCWSVB0DMP78eOyBpMa5aJki1bIRARykviOuImIczkxlj1KhVSyS16w2FSQetkD4UU2w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="js/bootstrap.min.js" type="text/javascript"></script>
+  <script src="js/jquery.parallax-1.1.3.js"></script>
+  <script src="js/jquery.appear.js"></script>
+  <script src="js/jquery-countTo.js"></script>
+  <script src="js/owl.carousel.min.js" type="text/javascript"></script>
+  <script src="js/jquery.fancybox.js"></script>
+  <script src="js/jquery.mixitup.min.js"></script>
+  <script src="js/functions.js" type="text/javascript"></script>
+</body>
+
+</html>
